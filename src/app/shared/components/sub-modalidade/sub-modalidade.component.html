@@ -1,0 +1,13 @@
+<div [formGroup]="formSubGroup">
+    <details class="detalhes" [open]="isOpen">
+        <summary>
+            <mat-checkbox
+             (click)="isOpen = !isOpen" [ngClass]="{'mat-checkbox-checked': isOpen}" 
+             [formControlName]="control"
+             [value]="value"
+
+             >{{ name }}</mat-checkbox>
+        </summary>
+        <p>xxx</p>
+    </details>
+</div>

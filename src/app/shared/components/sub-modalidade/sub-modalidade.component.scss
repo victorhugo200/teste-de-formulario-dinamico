@@ -1,0 +1,15 @@
+.detalhes {
+    padding: 40px 5px;
+    max-height: 32px;
+}
+
+details>summary {
+    list-style: none;
+}
+
+
+/* Chrome fix */
+
+details>summary::-webkit-details-marker {
+    display: none;
+}

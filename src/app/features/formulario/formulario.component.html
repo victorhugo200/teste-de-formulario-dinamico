@@ -1,0 +1,12 @@
+<mat-toolbar color="primary">
+    <span>Desktop App</span>
+</mat-toolbar>
+<mat-card class="card">
+    <form [formGroup]="formulario" (ngSubmit)="save()">
+
+        <vh-modalidade-check *ngFor="let dados of modalidade" [data]="dados" [form]="formulario" [nameControl]="dados.control"></vh-modalidade-check>
+
+        <button type="submit" class="botao">Enviar</button>
+    </form>
+
+</mat-card>

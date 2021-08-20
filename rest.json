@@ -1,0 +1,35 @@
+{
+    "modalidades": [{
+            "id": 1,
+            "name": "Dados Cadastrais",
+            "subGroups": [{
+                    "id": 1,
+                    "name": "Informações judiciarias",
+                    "items": ["item 1", "item 2"]
+
+                },
+                {
+                    "id": 2,
+                    "name": "Informações de tecnologia",
+                    "items": ["item 1", "item 2"]
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Financiamento",
+            "subGroups": [{
+                    "id": 3,
+                    "name": "Carros",
+                    "items": ["item 1", "item 2"]
+
+                },
+                {
+                    "id": 4,
+                    "name": "Ferramentas",
+                    "items": ["item 1", "item 2"]
+                }
+            ]
+        }
+    ]
+}

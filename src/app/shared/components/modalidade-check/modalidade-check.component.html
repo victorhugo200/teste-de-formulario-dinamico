@@ -1,0 +1,13 @@
+<div class="modalidade-check" [formGroup]="form">
+    <mat-checkbox [formControlName]="nameControl" [value]="data.name">
+        <h2>{{data.name}}</h2>
+    </mat-checkbox>
+    <div class="modalidade-check-colapse">
+        <ul class="lista">
+            <li *ngFor="let submodalidades of groups">
+                <vh-sub-modalidade [name]="submodalidades.name" [formSubGroup]="form" [control]="submodalidades.group" [value]="submodalidades.name"></vh-sub-modalidade>
+            </li>
+        </ul>
+    </div>
+
+</div>
